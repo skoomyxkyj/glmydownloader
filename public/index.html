@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+  <title>Downloader</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <div class="app">
+    <div class="panel">
+      <h1>Downloader Lagu</h1>
+      <p class="subtitle">TikTok / YouTube Audio</p>
+
+      <div class="section">
+        <label>Platform</label>
+        <select id="platform">
+          <option value="youtube">YouTube</option>
+          <option value="tiktok">TikTok</option>
+        </select>
+      </div>
+
+      <div class="section">
+        <label>Link Video</label>
+        <input type="text" id="url" placeholder="Tempel link di sini">
+      </div>
+
+      <div class="section">
+        <label>Kualitas</label>
+        <select id="quality">
+          <option value="128">MP3 128kbps</option>
+          <option value="320">MP3 320kbps</option>
+        </select>
+      </div>
+
+      <button id="downloadBtn" onclick="download()">Download Now</button>
+<p id="status" style="font-size:13px;opacity:.7;margin-top:7px;"></p>
+
+      <footer>gloomy</footer>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
