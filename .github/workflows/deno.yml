@@ -10,9 +10,9 @@ name: Deno
 
 on:
   push:
-    branches: ["glmydownloader"]
+    branches: ["server.js"]
   pull_request:
-    branches: ["glmydownloader"]
+    branches: ["server.js"]
 
 permissions:
   contents: read
